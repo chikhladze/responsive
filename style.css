@@ -1,0 +1,186 @@
+.firstsec {
+	max-width:1500px;
+	width:100%;
+    height:100px;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+.firsthead {
+	display:flex;
+	flex-wrap:wrap;
+}
+.firsthead img {
+	width:150px;
+	margin:0 0 0 70px;
+}
+.ulli{
+	margin:39px 0 0 160px;
+	display:flex;
+	flex-wrap:wrap;
+}
+.ulli li {
+	margin-left:30px;
+	font-weight:500;
+	font-size:20px;
+	color:#3D58A6; 
+}
+.firstspan img {
+	width:40px;
+	height:30px;
+	margin:33px 0 0 40px;
+	border-right:solid #3D58A6;
+}
+ 
+.firstspan img:first-child{
+	margin-left:150px;
+}
+.firstspan img:last-child{
+	border-color:white;
+}
+.secsec {
+	width:100%;
+	height:700px;
+	background-color:#BDCCD4;
+}
+.box {
+	position:relative;
+	background-image:url(https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-thumb.jpg);
+	width:100%;
+	height:700px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.box p {
+	position:absolute;
+	bottom:90px;
+	left:30px;
+	z-index:1;
+	color:#fff;
+	font-size:30px;
+	font-weight:700;
+
+}
+.box img {
+	width:130px;
+	height:100px;
+	z-index:1;
+	position:absolute;
+	bottom:30px;
+	right:30px;
+}
+.thsec{
+	padding:0 50px;
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items: center;
+	width:100%;
+	height:600px;
+	background-color:#363E97;
+}
+.whitebox {
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	width:550px;
+	height:350px;
+	background-color:#fff;
+	flex-wrap:wrap;
+
+}
+.whitebox:first-child{
+	margin-right:20px;
+}
+.thsec p {
+	position:absolute;
+	top:35px;
+	left:83px;
+	color:#fff;
+	font-size:22px;
+}
+.thsec span {
+	position:absolute;
+	top:140px;
+    left:140px;
+}
+.forsec {
+	position:relative;
+	padding:0 50px;
+	display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+	width:100%;
+	height:500px;
+	background-color:#BDCCD4;
+}
+.forsec img{
+	width:230px;
+    height:auto;
+}
+.litboxes{
+	background-color:#f1f5e4;
+	height:215px;
+}
+.forsec p {
+    text-align:center;
+    margin-top:6px;
+}
+.newsp {
+	position:absolute;
+	top:43px;
+	left:80px;
+	font-weight:700;
+	font-size:20px;
+	color:#3D58A6;
+}
+.fifsec{
+	padding:0 40px;
+	width:100%;
+	height:450px;
+	position:relative;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	align-items:center;
+	background-color:#dbded1;
+}
+.whitebox2{
+	position: relative;
+	width:550px;
+	height:270px;
+	background-color:#fff;
+
+}
+.whitebox2 img {
+	position:absolute;
+	top:60px;
+    left:36px;
+	width: 120px;
+	height: auto;
+}
+.boxp2 {
+    position:absolute;
+    top:15px;
+    left:40px;
+    font-size:20px;
+    font-weight:500;
+    color:#3D58A6; 	
+}
+.boxp {
+	position:absolute;
+	top:37px;
+	left:63px;
+	font-size:23px;
+	font-weight:500;
+}
+.boxp3 {
+	width:338px;
+	position:absolute;
+	bottom:110px;
+	right:10px;
+	font-size:20px;
+}
