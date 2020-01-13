@@ -237,7 +237,7 @@
     	margin:160px 0 0 0;
     }
     .firsthead img {
-    	margin-bottom:10px;
+    	margin:20px 0 0 10px;
     }
     .ipaddiv{
     	width:30px;
@@ -265,5 +265,24 @@
     margin: 33px 0 0 40px;
     border:none;
     }
-
+}
+@media screen and (max-width:768px){
+     .firsthead img {
+    	margin:10px 0 0 10px;
+    }
+     .firstspan {
+     	margin:20px 0 0 0; 
+     }
+     .ipaddiv {
+     	margin: 25px 0 0 150px;
+     }
+     .thsec p {
+     	display:none;
+     }
+     .newsp {
+     	display:none;
+     }
+     .boxp{
+     	display:none;
+     }
 }
