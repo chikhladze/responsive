@@ -6,6 +6,12 @@
 	flex-wrap:wrap;
 
 }
+.ipaddiv{
+	display:none;
+}
+.ipadnavli {
+	display:none;
+}
 .firsthead {
 	display:flex;
 	flex-wrap:wrap;
@@ -29,15 +35,13 @@
 	width:40px;
 	height:30px;
 	margin:33px 0 0 40px;
-	border-right:solid #3D58A6;
+	
 }
- 
-.firstspan img:first-child{
-	margin-left:150px;
+
+.firstspan img:first-child {
+	margin-left:100px;
 }
-.firstspan img:last-child{
-	border-color:white;
-}
+
 .secsec {
 	width:100%;
 	height:700px;
@@ -183,4 +187,83 @@
 	bottom:110px;
 	right:10px;
 	font-size:20px;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<< RESPONSIVE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media screen and (max-width:1024px){
+	.ulli{
+	margin:10px 0 0 160px;
+    }
+    .thsec p {
+    	left:8px;
+    	font-size:19px;
+    }
+    .whitebox {
+    	height:252px;
+
+    }
+    .thsec span {
+    	top:117px;
+    }
+    .newsp {
+    	top:334px;
+    }
+    .whitebox2 {
+    	height:204px;
+    }
+    .boxp3 {
+    	bottom: 72px;
+        right: 33px;
+        font-size: 18px;
+    }
+    .whitebox2 img {
+
+    }
+    .boxp {
+    	top: 33px;
+        left: 3px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .whitebox2 img {
+    	top: 53px;
+        left: 36px;
+        width: 85px;
+    }
+    .firstspan img:first-child{
+	margin-left:80px;
+    }
+    .navli {
+    	display:none;
+    	margin:160px 0 0 0;
+    }
+    .firsthead img {
+    	margin-bottom:10px;
+    }
+    .ipaddiv{
+    	width:30px;
+    	display:block;
+    	margin:25px 0 0 260px;
+        z-index:1;	
+    }
+    .ipaddiv img {
+    	width:42px;
+    	height:auto;   
+    }
+    .ipaddiv:hover .ipadnavli{
+    	display:block;
+    	color:red;
+    } 
+   
+    .ipadnavli a {
+    	color:red;
+    	font-size:30px;
+    }
+    
+    .firstspan img {
+    width: 40px;
+    height: 30px;
+    margin: 33px 0 0 40px;
+    border:none;
+    }
+
 }
