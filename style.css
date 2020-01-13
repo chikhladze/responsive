@@ -286,3 +286,21 @@
      	display:none;
      }
 }
+@media screen and (max-width:480px){
+	.firstspan img {
+		display:none;
+	}
+	.thsec span {
+		left:35px;
+	}
+	.forsec img {
+		width:181px;
+		display:flex;
+		justify-content:space-between;
+		flex-wrap:wrap;
+	}
+	.boxp3{
+		bottom:31px;
+		width:212px;
+	}
+}
